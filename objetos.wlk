@@ -1,4 +1,4 @@
- // colores
+ // colores 
 object rojo {
  method esFuerte() = true
 }
@@ -39,44 +39,29 @@ object lino {
  method esBrillante() = false
 }
 
-
-
-
-
-
+//cosas
 
 object pelota {
-    const color = pardo
-    method color() = color
-    const material = cuero
-    method material() = material
-    const peso = 1300
-    method peso() = peso
+    method color() = pardo
+    method material() = cuero
+    method peso() = 1300
 }
 
 object remera {
-    const color = rojo
-    method color() = color
-    const peso = 800
-    method peso() = peso
-    const material = lino
-    method material() = material
+    method color() = rojo
+    method peso() = 800
+    method material() = lino
 }
 
 object biblioteca {
-    const color = verde
-    method color() = color
-    const material = madera
-    method material() = material
-    const peso = 8000
-    method peso() = peso
+    method color() = verde
+    method material() = madera
+    method peso() = 8000
 }
 
 object munieco {
-    const color = celeste
-    method color() = color
-    const material = vidrio
-    method material() = material
+    method color() = celeste
+    method material() = vidrio
     var peso = 0
     method peso() = peso
     method peso(unPeso){
@@ -90,8 +75,7 @@ object placa {
     method color(unColor){
         color = unColor
     }
-    const material = cobre
-    method material() = material
+    method material() = cobre
     var peso = 0
     method peso() = peso
     method peso(unPeso){
@@ -100,12 +84,9 @@ object placa {
 }
 
 object arito {
-    const color = celeste
-    method color() = color
-    const material = cobre
-    method material() = material
-    const peso = 180
-    method peso() = peso
+    method color() = celeste
+    method material() = cobre
+    method peso() = 180
 }
 
 object banquito {
@@ -114,11 +95,8 @@ object banquito {
     method color(unColor){
         color = unColor
     }
-    const material = madera
-    method material() = material
-    const peso = 1700
-    method peso() = peso
-    
+    method material() = madera
+    method peso() = 1700    
 }
 
 object cajita{
@@ -127,10 +105,8 @@ object cajita{
     method objetoInterno(unObjeto){
     objetoInterno = unObjeto
     }
-    const color = rojo
-    method color() = color
-    const material = cobre
-    method material() = material
+    method color() = rojo
+    method material() = cobre
     const peso = 400
     method peso() = peso + objetoInterno.peso()
     }
